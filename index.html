@@ -11,7 +11,7 @@
     <style>
         body {
             background-color: #b1b100;
-            background-image: url("Images/Monke.png");
+            background-image: url("images/Monke.png");
             background-size: auto;
             display: flex;
             justify-content: center;
@@ -39,7 +39,7 @@
         //Objet du personnage(Singe), qui se déplacera automatiquement
         let singe = {
             img: new Image(),
-            urlImage: "Images/singeGif.png",
+            urlImage: "images/singeGif.png",
             x: 0,
             y: 0,
             largeur: 120,
@@ -62,7 +62,7 @@
         //Fond qui défilera
         let fond = {
             img: new Image(),
-            urlImage: "Images/FondJeu.png",
+            urlImage: "images/FondJeu.png",
             largeur: leCanvas.width,
             vitesseX: 12,
             decalageX: 0
@@ -333,7 +333,7 @@
             //Objet pour un tracteur
             let tracteur = {
                 img: new Image(),
-                urlImage: "Images/tracteurGif.png",
+                urlImage: "images/tracteurGif.png",
                 x: leCanvas.width,
                 y: 728 - 200,
                 largeur: 290,
@@ -394,7 +394,7 @@
             //Objet pour un braconnier
             let braconnier = {
                 img: new Image(),
-                urlImage: "Images/braconnierGif.png",
+                urlImage: "images/braconnierGif.png",
                 x: leCanvas.width,
                 y: 728 - 400,
                 largeur: 200,
@@ -455,7 +455,7 @@
             //Objet pour un projectile
             let projectile = {
                 img: new Image(),
-                urlImage: "Images/projectile.png",
+                urlImage: "images/projectile.png",
                 x: singe.x + 60,
                 y: singe.y + 40,
                 largeur: 83,
@@ -526,7 +526,7 @@
                 //Objet pour une banane
                 let banane = {
                     img: new Image(),
-                    urlImage: "Images/banane.png",
+                    urlImage: "images/banane.png",
                     x: entierHasard(leCanvas.width + 300, leCanvas.width + 900),
                     y: 728 - 60,
                     largeur: 60,

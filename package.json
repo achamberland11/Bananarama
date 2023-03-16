@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "homepage": "https://achamberland11.github.io/Bananarama/",
     "gh-pages": "^5.0.0"
   }
 }
